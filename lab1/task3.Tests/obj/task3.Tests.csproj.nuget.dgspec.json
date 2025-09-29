@@ -26,6 +26,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "/Users/ignatvaschilo/develop/sh/labs3sem/lab1/task3.csproj": {
+                "projectPath": "/Users/ignatvaschilo/develop/sh/labs3sem/lab1/task3.csproj"
+              },
               "/Users/ignatvaschilo/develop/sh/labs3sem/lab1/task3/task3.csproj": {
                 "projectPath": "/Users/ignatvaschilo/develop/sh/labs3sem/lab1/task3/task3.csproj"
               }

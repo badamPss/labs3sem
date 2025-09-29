@@ -25,7 +25,7 @@ namespace task3
             var f = new Figure("tri", new Point(0,0), new Point(1,0), new Point(0,1));
 
             var d1 = f.LengthSide(a, b);
-            var d2 = f.LengthSide(b, a); // симметрично
+            var d2 = f.LengthSide(b, a); 
 
             AssertAlmostEqual(5, d1);
             AssertAlmostEqual(d1, d2);
@@ -41,7 +41,6 @@ namespace task3
         [Fact]
         public void Perimeter_Triangle_From_Program_Is_12()
         {
-            // Треугольник из Program.cs: (0,0)-(3,0)-(3,4): 3 + 4 + 5 = 12
             var A = new Point(0, 0);
             var B = new Point(3, 0);
             var C = new Point(3, 4);
@@ -67,7 +66,6 @@ namespace task3
         [Fact]
         public void Perimeter_Closes_LastToFirst_And_5PointCtor_Works()
         {
-            // Пятиугольник (ломаная по часовой стрелке)
             var p1 = new Point(0, 0);
             var p2 = new Point(2, 0);
             var p3 = new Point(3, 1);
@@ -75,8 +73,7 @@ namespace task3
             var p5 = new Point(0, 1);
 
             var pent = new Figure("Пятиугольник", p1, p2, p3, p4, p5);
-
-            // Считаем ожидаемый периметр по тем же отрезкам + замыкание p5->p1
+            
             double Dist(Point a, Point b)
             {
                 var dx = b.X - a.X;

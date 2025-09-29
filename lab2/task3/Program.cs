@@ -6,20 +6,22 @@ namespace lab2.Task3
     {
         static void Main()
         {
-            Console.WriteLine("=== Базовая версия ===");
-            DocumentWorker worker = new DocumentWorker();
-            worker.OpenDocument();
-            worker.EditDocument();
-            worker.SaveDocument();
+            string key = Console.ReadLine();
+            DocumentWorker worker = new();
+            if (key == "base")
+            {
+                worker = new DocumentWorker();
+            }
 
-            Console.WriteLine("\n=== Версия Pro ===");
-            worker = new ProDocumentWorker();
-            worker.OpenDocument();
-            worker.EditDocument();
-            worker.SaveDocument();
+            if (key == "pro")
+            {
+                worker = new ProDocumentWorker();
+            }
 
-            Console.WriteLine("\n=== Версия Expert ===");
-            worker = new ExpertDocumentWorker();
+            if (key == "exp")
+            {
+                worker = new ExpertDocumentWorker()();
+            }
             worker.OpenDocument();
             worker.EditDocument();
             worker.SaveDocument();
