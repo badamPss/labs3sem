@@ -102,3 +102,4 @@
 /Users/ignatvaschilo/develop/sh/labs3sem/lab1/task2.Tests/obj/Debug/net9.0/task2.Tests.pdb
 /Users/ignatvaschilo/develop/sh/labs3sem/lab1/task2.Tests/obj/Debug/net9.0/task2.Tests.genruntimeconfig.cache
 /Users/ignatvaschilo/develop/sh/labs3sem/lab1/task2.Tests/obj/Debug/net9.0/ref/task2.Tests.dll
+/Users/ignatvaschilo/develop/sh/labs3sem/lab1/task2.Tests/obj/Debug/net9.0/task2.Tests.sourcelink.json
